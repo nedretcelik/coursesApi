@@ -24,7 +24,7 @@ window.onload = function () {
           cell3.innerText = course.courseName;
 
           let anchor = document.createElement("a");
-          anchor.href = `http://localhost:8081/details.html?courseid=${course.id}`;
+          anchor.href = `details.html?courseid=${course.id}`;
           anchor.text = "See details";
           let cell4 = row.insertCell();
           cell4.appendChild(anchor);
